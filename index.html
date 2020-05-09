@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Polina</title>
+  <!--подключение стилей-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+</head>
+
+<body>
+  <header>
+
+    <input class="menu-btn" type="button"></input>
+    <nav class="burger-menu">
+
+      <div class="item_menu"><a href="#">Колонка редактора</a></div>
+      <div class="item_menu"><a href="#">Контакты</a></div>
+      <div class="item_menu"><a href="#">Подписка</a></div>
+
+    </nav>
+
+  </header>
+  <section class="gallery">
+    <div class="box">
+
+      <div class=" my-slider">
+        <div>
+          <img src="img/cat1.jpg" alt="cat">
+        </div>
+        <div>
+          <img src=" img/cat2.jpg" alt="cat">
+        </div>
+        <div>
+          <img src=" img/cat3.jpg" alt="cat">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="btn-test">
+    <div class="box">
+      <div class="title-min">События мыши и клавиатуры</div>
+      <!--inputs-->
+      <input class="txt-input input-onChange" type="text" placeholder="При изменении">
+      <input class="txt-input input-onKeyUp" type="text" placeholder="Клавиша зажата">
+      <input class="txt-input input-onKeyDown" type="text" placeholder="Клавиша отпущена">
+      <input class="txt-input input-onKeyPress" type="text" placeholder="Печатаю..">
+      <input class="txt-input input-onFocus" type="text" placeholder="В фокусе">
+      <!--buttons-->
+      <input class="btn btn-onClick" type="button" value="При нажатии">
+      <input class="btn btn-onMouseOver" type="button" value="При наведении">
+      <input class="btn btn-onMouseOut" type="button" value="При покидании объекта">
+      <input class="btn btn-onDbClick" type="button" value="При двойном клике">
+      <input class="btn btn-onContextMenu" type="button" value="На правую кнопку мыши">
+      <input class=" btn btn-onMouseUp" type="button" value="В процессе отпускания">
+      <input class="btn btn-onMouseDown" type="button" value="В процессе нажатия">
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    //TODO делаем slick-slider
+  </script>
+</body>
+
+</html>
